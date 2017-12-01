@@ -34,6 +34,7 @@ public class DependencyBank {
 	//Repositories
 	static String mavenLocal = "mavenLocal()";
 	static String mavenCentral = "mavenCentral()";
+	static String mavenAlibaba = "maven { url 'http://maven.aliyun.com/nexus/content/groups/public' }";
 	static String jCenter = "jcenter()";
 	static String libGDXSnapshotsUrl = "https://oss.sonatype.org/content/repositories/snapshots/";
 	static String libGDXReleaseUrl = "https://oss.sonatype.org/content/repositories/releases/";

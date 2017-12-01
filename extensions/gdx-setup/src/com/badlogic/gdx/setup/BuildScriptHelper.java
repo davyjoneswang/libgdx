@@ -33,6 +33,7 @@ public class BuildScriptHelper {
 		//repos
 		write(wr, "repositories {");
 		write(wr, DependencyBank.mavenLocal);
+		write(wr, DependencyBank.mavenAlibaba);
 		write(wr, DependencyBank.mavenCentral);
 		write(wr, "maven { url \"" + DependencyBank.libGDXSnapshotsUrl + "\" }");
 		write(wr, DependencyBank.jCenter);
@@ -74,6 +75,7 @@ public class BuildScriptHelper {
 		space(wr);
 		write(wr, "repositories {");
 		write(wr, DependencyBank.mavenLocal);
+		write(wr, DependencyBank.mavenAlibaba);
 		write(wr, DependencyBank.mavenCentral);
 		write(wr, "maven { url \"" + DependencyBank.libGDXSnapshotsUrl + "\" }");
 		write(wr, "maven { url \"" + DependencyBank.libGDXReleaseUrl + "\" }");
